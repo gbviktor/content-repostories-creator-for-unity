@@ -1,0 +1,34 @@
+{
+  "name": "com.gbviktor.content-repostories-creator-for-unity",
+  "displayName": "Content Repositories Creator",
+  "author": {
+    "name": "Victor Bisterfeld",
+    "url": "https://gbviktor.de/content-repostories-creator-for-unity"
+  },
+  "version": "1.0.0",
+  "unity": "2022.1",
+  "description": "Content Repostories creator for Unity, help you to speed up and manage your game content, resources, assets",
+  "keywords": [
+    "tool",
+    "runtime",
+    "content",
+    "generate",
+    "resources",
+    "managment"
+  ],
+  "license": "MIT",
+  "category": "Manager",
+  "dependencies": {
+  },
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "This sample",
+      "path": "Samples~/Sample1"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbviktor/content-repostories-creator-for-unity.git"
+  }
+}
