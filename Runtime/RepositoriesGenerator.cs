@@ -62,7 +62,7 @@ using UnityEngine.Rendering;
 namespace MontanaGames.Experemental
 {
     [CreateAssetMenu(menuName = ""Montana Games/DB/$type Repository"", fileName = ""$typeRepository"")]
-    public partial class $typeRepository : ScriptableObject, IBinderRepository, IBinderRepository<$type>
+    public class $typeRepository : ScriptableObject, IBinderRepository, IBinderRepository<$type>
     {
         [SerializeField] readonly byte type = $IDtype;
         public byte Type => type;
